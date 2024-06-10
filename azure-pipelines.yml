@@ -4,7 +4,7 @@ trigger:
 pool:
   name: Default
   demands:
-  - agent.name -equals {local}
+  - agent.name -equals {CYRINES-LAPTOP}
 
 steps:
 - script: echo Hello, world!
